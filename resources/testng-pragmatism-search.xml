@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Name">
+    <test name="pragmatism Search Test">
+        <parameter name="searchText" value="pragmatism"/>
+        <classes>
+            <class name="com.lohika.SearchTest"/>
+        </classes>
+    </test>
+</suite>
